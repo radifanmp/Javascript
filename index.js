@@ -49,3 +49,35 @@ document.write("<br>");
 document.write("<br>");
 document.write(isSleeping + "<br>");
 document.write(isStudying + "<br>");
+
+//Object
+//Array
+//Date
+
+let emptyObject = {};
+
+let car = {
+  model: "Mercedess-Benz",
+  color: "White",
+  doors: 3,
+  ProductAvail: true,
+};
+//   {
+//     model: "BMW",
+//     color: "Black",
+//     doors: 3,
+//     ProductAvail: true,
+//   },
+
+let students = ["Adi", "Erfan", "Dony"];
+
+Date();
+var currentDate = new Date();
+
+console.table(emptyObject);
+console.table(car);
+console.table(students);
+console.log(car.model);
+console.log(students[1]);
+
+console.log(currentDate);
